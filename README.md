@@ -14,11 +14,11 @@ Gauging how popular a programming language is important for companies judging wh
 
 ## spark command:
 ### windows
-- spark command : `spark-submit --class org.toan.assignment.FindActualActivationDateApp --master local[4] .\target\scala-2.11\find-actual-activation-date-0.1.0-SNAPSHOT-with-dependencies.jar .\resources\inputdata.csv`
+- spark command : `spark-submit --class wikipedia.WikipediaRanking --master local[4] .\target\scala-2.11\bigdata-wikipedia_2.11-0.1-SNAPSHOT.jar`
 
 
 ### macos
-- spark command : `spark-submit --class org.toan.assignment.FindActualActivationDateApp --master local[6] \target/scala-2.11/find-actual-activation-date-0.1.0-SNAPSHOT-with-dependencies.jar \resources/inputdata.csv`
+- spark command : `spark-submit --class wikipedia.WikipediaRanking --master local[6] \target/scala-2.11/bigdata-wikipedia_2.11-0.1-SNAPSHOT.jar`
 
 
 ## Common SBT commands:
